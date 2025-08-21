@@ -1,41 +1,97 @@
-# Prerequisites
-*.d
+# .NET build results
+bin/
+obj/
+out/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
 
-# Precompiled Headers
-*.gch
-*.pch
+# Mono Auto Generated Files
+mono_crash.*
 
-# Linker files
-*.ilk
+# Visual Studio Code
+.vscode/
+.history/
 
-# Debugger Files
+# Rider
+.idea/
+*.sln.iml
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored if you use Package Restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Microsoft Azure Build Output
+csx/
+*.build.csdef
+
+# Resharper
+*.DotSettings.user
+
+# DotCover
+*.dotCover
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*.dbmdl
+*.bak
+*.log
+*.dmp
+
+# Entity Framework
+*.edmx.sql
+*.edmx.diagram
+
+# Others
+*.vspscc
+*.vssscc
 *.pdb
+*.cache
+*.config
+*.pidb
+*.svclog
+*.scc
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
 
-# Fortran module files
-*.mod
-*.smod
+# NCrunch
+*.ncrunch*
+.*crunch*.local.xml
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Web Projects
+wwwroot/
+node_modules/
+bower_components/
 
-# Executables
-*.exe
-*.out
-*.app
+# Publish Web Output
+*.Publish.xml
+*.pubxml
+*.publishproj
 
-# debug information files
-*.dwo
+# Docker
+Dockerfile
+docker-compose*
+
+# Local environment
+.env
+.env.*
+
+# Others
+_ReSharper*/
+*.resharper
+*.vs/
