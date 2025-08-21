@@ -12,7 +12,7 @@ try
     Directory.CreateDirectory(outDir);
 
     // Set up the URL for the dummy DOCX file
-    string dummy_url = "https://vouchstoragedev.blob.core.windows.net/roa-templates/car-roa-template.docx";
+    string dummy_url = "[DOCX_URL_HERE]";
 
     // Get the bytes array of the dummy DOCX file
     using var httpClient = new HttpClient();
